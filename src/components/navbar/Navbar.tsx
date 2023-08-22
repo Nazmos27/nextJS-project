@@ -39,7 +39,7 @@ const Navbar = () => {
         <div>
             
             <div className='flex justify-between m-10'>
-            <Link href="/">Lamamia</Link>
+            <Link href="/">Sakib Vai</Link>
                 <div>
                 {
                     links.map((link) =><Link className='m-4' key={link.id} href={link.url}>{link.title}</Link>)
